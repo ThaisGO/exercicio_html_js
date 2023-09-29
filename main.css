@@ -37,6 +37,23 @@ button {
 }
 
 button:hover {
-    color:aquamarine
+    background-color:aquamarine;
+}
+
+#submit-message {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    display: none;
+}
+
+#submit-message.error {
+    color: red;
+    font-style: italic;
+}
+
+#submit-message.success {
+    color: green;
 }
 
